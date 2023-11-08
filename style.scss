@@ -1,0 +1,20 @@
+body {
+    background: darkgray;
+
+    }
+
+h1 {
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 2px;
+    width: 300px;
+    
+  }
+  .grid-item {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+  }
