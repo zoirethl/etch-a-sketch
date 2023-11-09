@@ -113,8 +113,8 @@
   .grid {
     display: grid;
     grid-gap: auto;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     border-style: outset;
     border-width: 50px;
     border-color: rgb(185, 131, 235);
