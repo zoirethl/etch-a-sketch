@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Reorganized code/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="title"> 
+        <h1>Etch-A-Sketch</h1>
+    </div>
+
+    <div class="container"> 
+        <form>
+            <input type="radio" name="color" id="black" value="black">
+            <label for="black"></label>
+
+            <input type="radio" name="color" id="rainbow" value="rainbow">
+            <label for="rainbow"></label>
+
+            <input type="radio" name="color" id="purple" value="purple">
+            <label for="purple"></label>
+
+            <input type="radio" name="color" id="blue" value="blue">
+            <label for="blue"></label>
+
+            <input type="reset" id="reset">
+        </form>
+            <div class="grid" id="the-grid"></div>
+    </div>
+
+    <div class="slider-grid-size">
+        <p>Grid Size</p>
+            <input id="size" type='range' min='16' max='128' step='16' value="16">
+    </div>
+
+</body>
+<footer>
+    <p>Made by Zoireth Liendo for <a href="https://www.theodinproject.com/">The Odin Project</a>  |  
+        <a href="https://github.com/zoirethl"> <img src="../Reorganized code/assets/github-mark.png" alt="GitHub Profile"> </a></p>
+</footer>
+<script src="../Reorganized code/script.js"></script>
+</html>
